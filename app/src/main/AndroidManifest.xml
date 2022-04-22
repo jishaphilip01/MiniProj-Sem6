@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fitandfine">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FitAndFine">
+        <activity
+            android:name=".exercisecalorie"
+            android:exported="false" />
+        <activity
+            android:name=".suggestions"
+            android:exported="true" />
+        <activity
+            android:name=".suggest_exercise"
+            android:exported="true" />
+        <activity
+            android:name=".calorie_results"
+            android:exported="true" />
+        <activity
+            android:name=".calorie_burnt"
+            android:exported="true" />
+        <activity
+            android:name=".select_options"
+            android:exported="true" />
+        <activity
+            android:name=".Info_submit"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
